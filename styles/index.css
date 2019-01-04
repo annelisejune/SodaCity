@@ -1,0 +1,21 @@
+
+
+/* NAV-BAR STYLES */
+.header-wrapper {
+    color: #fcfcfc;
+    margin: -10px;
+    padding: 0px;
+}
+
+.top-bar-wrapper {
+    background-color: #293278;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 0px 35px;
+}
+
+.logo-header > .logo img{
+    height: 300px;
+}
