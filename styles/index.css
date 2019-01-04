@@ -89,10 +89,6 @@
     width: 85vw;
 }
 
-.aboutImg {
-    
-}
-
 .aboutText {
     padding-left: 40px;
     padding-right: 40px;
@@ -105,6 +101,7 @@
     color: #fcfcfc;
     font-size: 2.5em;
     margin-top: -10px;
+    text-shadow: 6px 4px 0px rgba(28,110,164,0.37);
 }
 
 .paralax2 {
