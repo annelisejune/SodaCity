@@ -1,0 +1,117 @@
+.paralax {
+    background-image: url(/images/paralax.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
+    height: 300px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -4px;
+}
+
+.boxes-wrapper h2 {
+    font-family: 'Lobster', cursive;
+    color: #fcfcfc;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+.boxes-wrapper h2:hover {
+    border-bottom: 2px solid #fcfcfc;
+
+}
+.boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    width: 100vw;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DA3732;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 35px 1px rgba(0,0,0,0.67);
+}
+
+.sodaImg {
+    height: 300px;
+    width: 300px;
+}
+
+.instaPic {
+    height: 300px;
+    width: 300px;
+}
+
+.aboutUsImg {
+    height: 300px;
+    width: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: -4px;
+    background-color: #459EDE;
+    padding: 100px 150px;
+    box-shadow: 0px 0px 35px 4px rgba(0,0,0,0.59);
+}
+
+.aboutImg {
+    
+}
+
+.aboutText {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutText h2 {
+    font-family: 'Lobster', cursive;
+    color: #fcfcfc;
+    font-size: 2.5em;
+    margin-top: -10px;
+}
+
+.paralax2 {
+    background-image: url(/images/cookie.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
+    height: 300px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: -4px;
+    box-shadow: inset 0px 3px 35px 4px rgba(0,0,0,0.59);
+}
+
+.boxes a {
+    text-decoration: none;
+}
