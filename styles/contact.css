@@ -1,4 +1,4 @@
-*lobster titles -- font-family: 'Lobster', cursive;*/
+/* lobster titles -- font-family: 'Lobster', cursive; */
 
 
 /*form styles*/
@@ -16,6 +16,7 @@
     margin-bottom: 70px;
     text-shadow: 6px 4px #C8BFC7;
     margin-left: 200px;
+    padding-top: 50px;
 }
 
 .form > .form-group{
@@ -59,6 +60,7 @@
     color: #293278;
     padding: 1.5rem 2rem;
     transition: all 0.3s;
+    
 }
 .form textarea:focus {
     outline: none;
@@ -118,8 +120,11 @@
 .centered-btn-wrapper{
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 50px;
+
 }
 .btn:hover {
     transition: .5s;
     cursor: pointer;
+
 }
