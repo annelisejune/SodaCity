@@ -12,6 +12,7 @@
 
 .boxes-wrapper h2 {
     font-family: 'Lobster', cursive;
+    text-shadow: 6px 4px 0px rgba(28,110,164,0.37);
     color: #fcfcfc;
     font-size: 2.5em;
     padding-bottom: 10px;
