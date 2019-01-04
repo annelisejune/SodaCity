@@ -1,0 +1,129 @@
+body {
+    background-color: #fcfcfc;
+} 
+.menu_wrapper > .menu_row h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 100px;
+    text-decoration-color: #293278;
+    color:  #293278;
+}
+
+
+.menu_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* menu */
+.menu_cups {
+    display: flex;
+    align-items: center;
+    column-gap: right;
+    justify-content: center;
+}
+
+.menu_cups > .cup_body {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: right;
+    justify-content: center;
+    width: 350px;
+}
+
+/* cups */
+.items_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_wrapper > .items_prices {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: right;
+    justify-content: center;
+    width: 350px;
+}
+
+/* favorites */
+.favorite_content {
+    width: 100vw;
+}
+.favorite_content > .favorite_items {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 55px;
+    text-decoration-color: #293278;
+    color:  #293278;
+}
+.favorite_content >  .favorite_list_1  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+}
+
+.favorite_content > .favorite_list_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* smoothies */
+.smoothies_content > .smoothies_items {
+    display: flex;
+
+}
+.smoothies_content img{
+    display: flex;
+    width: 100vw;
+    height: 1000vwx;
+}
+.smoothies_content > .smoothies_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 55px;
+    text-decoration-color: #293278;
+    color:  #293278;
+}
+
+/* sweeat and treat */
+.sweandtre > .sweandtre_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 55px;
+    text-decoration-color: #293278;
+    color:  #293278;
+}
+
+/* hot drinks */
+.hot_drink > .hot_drinks_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    font-size: 55px;
+    text-decoration-color: #293278;
+    color:  #293278;
+}
+
+
