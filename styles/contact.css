@@ -21,8 +21,9 @@
 .form > .form-group{
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 500px;
-    width: 1000px;
+    margin-left: 33%;
+    margin-right: 17%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-self: auto;
@@ -97,11 +98,15 @@
     color: #ffffff;
     font-size: 1.25em;
     font-family: 'Lobster', cursive;
+    margin-left: 48%;
+    margin-right: 52%;
+    width: 50%;
     padding: 10px 35px;
     border: 1px solid #293278;
     border-radius: 12px;
     outline: none;
     transition: 0.3s;
+    margin-bottom: 20px;
 }
 
 .btn:active{
