@@ -1,0 +1,132 @@
+/*
+Off-white background color #fcfcfc
+Red #DA3732
+Dark Orange #DE4735
+Light Orange #E68334
+Dark Blue #293278
+Light Blue #459EDE
+Green #90C844
+Purple #7A2887
+*/
+
+/* roboto text --font-family: 'Roboto', sans-serif;*/
+/*lobster titles -- font-family: 'Lobster', cursive;*/
+
+
+/*form styles*/
+.form{
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+.text-wrapper{
+    font-family: 'Lobster', cursive;
+    font-size: 1.7rem;
+    color: #DA3732;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    text-shadow: 6px 4px #C8BFC7;
+    margin-left: 200px;
+}
+
+.form > .form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
+
+.form input{
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    color: #293278;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    border: none;
+    border-bottom: 3px solid #293278;
+    width: 100%;
+    display: block;
+    transition: all 0.3s; 
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #459EDE;
+}
+
+.form textarea{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+    border: 3px solid #293278;
+    font-size: 1.5rem;
+    font-family:'Lobster', cursive;
+    color: #293278;
+    padding: 1.5rem 2rem;
+    transition: all 0.3s;
+}
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #459EDE;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+.form label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color:#DA3732;
+    visibility: hidden;
+    opacity: 0; 
+}
+
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+/* button styles
+*/
+
+.btn{
+    margin-top: 16px;
+    margin-left: 500px;
+    background-color: #DA3732;
+    color: #ffffff;
+    font-size: 1.25em;
+    font-family: 'Lobster', cursive;
+    padding: 10px 35px;
+    border: 1px solid #293278;
+    border-radius: 12px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active{
+    box-shadow: 5px 5px 30px hsla(0, 0%, 0%, 0.4);
+    background-color: #293278;
+
+}
+
+.centered-btn-wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.btn:hover {
+    transition: .5s;
+    cursor: pointer;
+}
