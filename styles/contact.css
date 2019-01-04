@@ -57,6 +57,7 @@ body {
 }
 
 .form input:focus {
+    font-family: 'Lobster', cursive;;
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #459EDE;
@@ -87,6 +88,7 @@ body {
 }
 
 .form label{
+    font-family: 'Lobster', cursive;
     font-size: 1.2rem;
     font-weight: 700;
     margin-left: 2rem;
