@@ -2,10 +2,25 @@
 
 
 /*form styles*/
+body {
+    background-color: #fcfcfc;
+}
 .form{
     margin-top: 66px;
     margin-bottom: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.texts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+
+}
+
 .text-wrapper{
     font-family: 'Lobster', cursive;
     font-size: 1.7rem;
@@ -15,15 +30,12 @@
     justify-content: space-around;
     margin-bottom: 70px;
     text-shadow: 6px 4px #C8BFC7;
-    margin-left: 200px;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .form > .form-group{
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 33%;
-    margin-right: 17%;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -31,6 +43,7 @@
 }
 
 .form input{
+    background-color: #fcfcfc;
     font-size: 1.5rem;
     font-family: 'Lobster', cursive;
     color: #293278;
@@ -38,7 +51,7 @@
     border-radius: 16px;
     border: none;
     border-bottom: 3px solid #293278;
-    width: 100%;
+    width: auto;
     display: block;
     transition: all 0.3s; 
 }
@@ -51,7 +64,7 @@
 
 .form textarea{
     margin-top: 20px;
-    width: 100%;
+    width: auto;
     height: 250px;
     border-radius: 16px;
     border: 3px solid #293278;
@@ -60,6 +73,7 @@
     color: #293278;
     padding: 1.5rem 2rem;
     transition: all 0.3s;
+    background-color: #fcfcfc;
     
 }
 .form textarea:focus {
@@ -94,21 +108,23 @@
 */
 
 .btn{
-    margin-top: 16px;
-    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px; 
+    margin-bottom: 20px;
     background-color: #DA3732;
     color: #ffffff;
     font-size: 1.25em;
     font-family: 'Lobster', cursive;
-    margin-left: 48%;
-    margin-right: 52%;
     width: 50%;
-    padding: 10px 35px;
+    padding: 10px 40px;
     border: 1px solid #293278;
     border-radius: 12px;
     outline: none;
     transition: 0.3s;
-    margin-bottom: 20px;
+    
+   
 }
 
 .btn:active{
@@ -119,7 +135,8 @@
 
 .centered-btn-wrapper{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-self: center;
     padding-bottom: 50px;
 
 }
@@ -128,3 +145,4 @@
     cursor: pointer;
 
 }
+
