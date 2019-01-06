@@ -1,5 +1,5 @@
 .paralax {
-    background-image: url(/images/paralax.jpg);
+    background-image: url(/static/images/paralax.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -105,7 +105,7 @@
 }
 
 .paralax2 {
-    background-image: url(/images/cookie.jpg);
+    background-image: url(/static/images/cookie.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
