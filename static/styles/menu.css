@@ -1,4 +1,5 @@
-body {
+
+ body {
     background-color: #fcfcfc;
 } 
 .menu_wrapper > .menu_row h1{
@@ -11,39 +12,57 @@ body {
     font-size: 100px;
     text-decoration-color: #293278;
     color:  #293278;
+  
 }
-
-
+.prices h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    height: 10px;
+}
+.prices li{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
 .menu_img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 /* menu */
 .menu_cups {
     display: flex;
     align-items: center;
     column-gap: right;
     justify-content: center;
+   
 }
-
 .menu_cups > .cup_body {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    column-gap: right;
+    /* column-gap: right; */
     justify-content: center;
-    width: 350px;
+    width: 400px;
+    height: 250px;
+    padding: 25px;
 }
-
+.menu_cups > .item_wrapper > h1{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+}
 /* cups */
 .items_wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: space-between;
+    justify-content: space-between;
+    height: 10px;
+    font-family: 'Lobster Two', cursive;
 }
-
 .item_wrapper > .items_prices {
     display: flex;
     /* justify-content: space-between; */
@@ -52,42 +71,45 @@ body {
     justify-content: center;
     width: 350px;
 }
-
 /* favorites */
 .favorite_content {
+    background-image: url("images/download.png");
     width: 100vw;
 }
 .favorite_content > .favorite_items {
+    height: 110px;
     display: flex;
     justify-content: center;
-    font-family: 'Lobster', cursive;
     font-family: 'Lobster', cursive;
     text-decoration: underline;
     font-size: 55px;
     text-decoration-color: #293278;
     color:  #293278;
+    
 }
 .favorite_content >  .favorite_list_1  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 9%;
+    font-family: 'Lobster Two', cursive;
+    
 }
-
 .favorite_content > .favorite_list_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
 }
-
 /* smoothies */
 .smoothies_content > .smoothies_items {
     display: flex;
-
+    height: 200px;
 }
-.smoothies_content img{
+/* .smoothies_content img{
     display: flex;
     width: 100vw;
     height: 1000vwx;
-}
+} */
 .smoothies_content > .smoothies_items {
     display: flex;
     justify-content: center;
@@ -98,8 +120,21 @@ body {
     font-size: 55px;
     text-decoration-color: #293278;
     color:  #293278;
+    height: 200px;
 }
-
+.smoothies_content > .smoothies_list li{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
+.smoothies_content > .smoothies_list h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+   
+}
 /* sweeat and treat */
 .sweandtre > .sweandtre_wrapper {
     display: flex;
@@ -112,7 +147,24 @@ body {
     text-decoration-color: #293278;
     color:  #293278;
 }
-
+/* 
+.sweandtre h1{
+    display: flex;
+    justify-content: center;
+     font-family: 'Roboto', sans-serif;
+} */
+.sweandtre > .sweandtre_list h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.sweandtre li{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
 /* hot drinks */
 .hot_drink > .hot_drinks_wrapper {
     display: flex;
@@ -124,41 +176,12 @@ body {
     font-size: 55px;
     text-decoration-color: #293278;
     color:  #293278;
+    height: 200px;
 }
-
-.hot_drinks_list img {
-    height: 500px;
-    width: 600px;
-    margin-left: -10px;
-}
-
-.sweandtre_list img {
-    height: 600px;
-    width: 650px;
-    margin-left: -13px;
-    padding-right: 10px;
-}
-
-.smoothies_list img {
-    height: 600px;
-    width: 100vw;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
-.hot_drinks_list {
+.hot_drink > .hot_drinks_list li{
     display: flex;
-    justify-content: space-around;
-    font-size: 4em;
+    justify-content: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    height: 50px;
 }
-
-.sweandtre_list {
-    display: flex;
-    justify-content: space-around;
-    font-size: 3em;
-}
-.sweandtre_list ul {
-    margin-top: -80px;
-    padding-left: -20px;
-}
-
